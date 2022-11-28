@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(240, 78%, 98%);
+    font-family: "Montserrat";
+    min-height: 100vh;
+    font-size: 15px;
+} 
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    align-items: center;
+    font-size: 18px;
+    color: hsl(233, 13%, 49%)
+}
+
+.toggle-btn {
+    color: hsl(234, 14%, 74%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.wrapper-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing-card-left {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.pricing-card-left-title {
+    font-size: 16px;
+}
+
+.pricing-card-left-pricing {
+    font-size: 24px;
+    display: flex;
+}
+
+.pricing-card-left-details-one {
+    font-size: 15px;
+}
+
+.pricing-card-left-details-two {
+    font-size: 15px;
+}
+
+.pricing-card-left-details-three {
+    font-size: 15px;
+}
+
+.pricing-card-middle {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.pricing-card-middle-title {
+    font-size: 16px;
+}
+
+.pricing-card-middle-pricing {
+    font-size: 24px;
+    display: flex;
+}
+
+.pricing-card-middle-details-one {
+    font-size: 15px;
+}
+
+.pricing-card-middle-details-two {
+    font-size: 15px;
+}
+
+.pricing-card-middle-details-three {
+    font-size: 15px;
+}
+
+.pricing-card-right {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+
+
+
+
+
+.learn-more-btn {
+    font-size: 14px;
+}
