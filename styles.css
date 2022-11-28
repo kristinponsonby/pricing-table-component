@@ -18,7 +18,7 @@ body {
     padding-top: 10%;
     padding-bottom: 5%;
     align-items: center;
-    font-size: 18px;
+    font-size: 24px;
     color: hsl(233, 13%, 49%)
 }
 
@@ -27,86 +27,163 @@ body {
     font-size: 14px;
     display: flex;
     justify-content: center;
-    padding-bottom: 5%;
+    padding-bottom: 50px;
 }
 
 .wrapper-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .pricing-card-left {
     overflow: hidden;
-    box-shadow: 0px 2px 8px 0px;
+    box-shadow: 0px 2px 8px 0px grey;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 280px;
     padding: 25px;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
 }
 
 .pricing-card-left-title {
     font-size: 16px;
+    color: hsl(233, 13%, 49%);
+    padding: 5%;
 }
 
 .pricing-card-left-pricing {
-    font-size: 24px;
-    display: flex;
+    font-size: 40px;
+    color:  hsl(232, 13%, 33%);
+    padding-bottom: 5%;
 }
 
+hr.solid {
+    border-top: 1px solid hsl(235, 32%, 86%);
+    margin-bottom: 4%;
+    margin-top: 4%;
+  }
+
 .pricing-card-left-details-one {
+    color: hsl(233, 13%, 49%);
     font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .pricing-card-left-details-two {
+    color: hsl(233, 13%, 49%);
     font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .pricing-card-left-details-three {
+    color: hsl(233, 13%, 49%);
     font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .pricing-card-middle {
     overflow: hidden;
-    box-shadow: 0px 2px 8px 0px;
-    background-color: white;
-    border-radius: 20px;
+    box-shadow: 0px 2px 8px 0px grey;
+    background: linear-gradient(to bottom, hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%)100%);
+    border-radius: 10px;
+    text-align: center;
+    width: 280px;
     padding: 25px;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
 }
 
 .pricing-card-middle-title {
     font-size: 16px;
+    color: white;
+    padding: 5%;
 }
 
 .pricing-card-middle-pricing {
-    font-size: 24px;
-    display: flex;
+    font-size: 60px;
+    color: white;
 }
 
 .pricing-card-middle-details-one {
+    color: white;
     font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .pricing-card-middle-details-two {
+    color: white;
     font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .pricing-card-middle-details-three {
+    color: white;
     font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .pricing-card-right {
     overflow: hidden;
-    box-shadow: 0px 2px 8px 0px;
+    box-shadow: 0px 2px 8px 0px grey;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 280px;
     padding: 25px;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
 }
 
+.pricing-card-right-title {
+    font-size: 16px;
+    color: hsl(233, 13%, 49%);
+    padding: 5%;
+}
 
+.pricing-card-right-pricing {
+    font-size: 40px;
+    color:  hsl(232, 13%, 33%);
+    padding-bottom: 5%;
+}
 
+.pricing-card-right-details-one {
+    color: hsl(233, 13%, 49%);
+    font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
+.pricing-card-right-details-two {
+    color: hsl(233, 13%, 49%);
+    font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
+.pricing-card-right-details-three {
+    color: hsl(233, 13%, 49%);
+    font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
-.learn-more-btn {
+a.learn-more-btn {
+    display: block;
     font-size: 14px;
+    color: white;
+    background: linear-gradient(to bottom, hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%)100%);
+    text-decoration: none;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin: 30px 0;
 }
